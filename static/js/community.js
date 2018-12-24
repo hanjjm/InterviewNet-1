@@ -4,7 +4,7 @@ var select;
 var idx;
 var hitupdate;
 var targetpost;
-var han;
+var han;//test
 $.ajax({
           type: 'GET',
           url: "http://ec2-54-244-72-128.us-west-2.compute.amazonaws.com:5000/getInfo",
@@ -161,4 +161,3 @@ $('table').click(function(e) {
         }
     }
 });
-
